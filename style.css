@@ -1,0 +1,168 @@
+*{
+	//margin-left: 0.1% auto;
+	//margin-right: 0.1% auto;
+	font-size:1.5vw;
+}
+body,html{
+	background-color:black;
+	color:white;
+	height: 100%;
+}
+/*Home*/
+.nav1,.nav2{
+	list-style-type:none;
+	 background-color:#2f4f4f;
+	text-align:center;
+	flex:100%;
+	display:flex;
+	display:flex-grow;
+	margin:0;
+	padding:0;
+	min-height:6vh;
+	width:100%;
+	z-index: 1;
+	position: relative;
+}
+.nav1 li,.nav2 li{
+	display:inline-block;
+	flex-grow:1;
+	display:flex-grow;
+	font-size:  2vw;;
+	position: relative;
+	z-index: 1;
+}
+.nav2 a{
+	text-decoration:none;
+	color:black;
+	position: relative;
+}
+.nav2 a:hover{
+	text-decoration:underline;	
+}
+.left{
+	float: left;
+	width:30%;
+}
+.right{
+	float:right;
+	display:block;
+	overflow: hidden;
+	width: 60%;
+}
+h1{
+	font-size: 3vw;
+}
+/*left img{
+	
+	width:30%;
+}*/
+/*Work Experience*/
+.work2{
+	list-style-type:none;
+}
+.left1{
+	float: left;
+	width:30%;
+}
+.right1{
+	float:right;
+	display:block;
+	overflow: hidden;
+	width: 60%;
+}
+/*.aside{
+	float: left;
+	width:100%;
+}*/
+.left2{
+	/*float: left;*/
+	width: 10%;
+	height: 10%;
+}
+.summary{
+	background-color:#2f4f4f;
+	min-height: 10vh;
+	color:black;
+	z-index: 1;
+	position: relative;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	padding-bottom: 0.5%;
+	padding-top: 1%;
+}
+.image{
+	width: 80%;
+	height: 120%;
+}
+body::before{
+	content:"";
+	background-image: url("http://www.allwhitebackground.com/images/5/Black-Texture.jpg");
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	background-size: cover;
+	background-size:auto;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.25;
+	min-height:100%;
+	height: auto;
+}
+.form3{
+	z-index: 1;
+	position: relative;
+}
+.button{
+	background-color:#2f4f4f;
+	color:white;
+	padding:5px;
+	border:2px #2f4f4f solid; 
+	color:black;
+}
+.button:hover{
+	text-decoration:underline;
+}
+.skillsleft{
+	float: left;
+	width:50%;
+}
+.skillsright{
+	display:block;
+	overflow: hidden;
+	float: right;
+	width:40%;
+}
+.halfleft{
+	float: left;
+	width:48%;
+	background-color:slategray;
+	color:black;
+	margin-left: 0.2%;
+	z-index: 1;
+	position: relative;
+	padding-left:1%;
+}
+.halfright{
+	display:block;
+	overflow: hidden;
+	float: right;
+	width:48%;
+	background-color:slategrey;
+	color:black;
+	margin-left: 0.2%;
+	margin-bottom:1%;
+	padding-left:1%;
+	padding-bottom: 0%;
+	z-index: 1;
+	position: relative;
+	
+}
+.details{
+	background-color:#2f4f4f;
+	color:black;
+	z-index: 1;
+	position: relative;	
+	padding-left: 5%;
+}
