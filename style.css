@@ -136,7 +136,7 @@ body::before{
 .halfleft{
 	float: left;
 	width:48%;
-	background-color:rosybrown;
+	background-color:slategrey;
 	color:black;
 	margin-left: 0.2%;
 	z-index: 1;
@@ -148,7 +148,7 @@ body::before{
 	overflow: hidden;
 	float: right;
 	width:48%;
-	background-color:rosybrown;
+	background-color:slategrey;
 	color:black;
 	margin-left: 0.2%;
 	margin-bottom:1%;
