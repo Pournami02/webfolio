@@ -80,7 +80,6 @@ h1{
 }
 .summary{
 	background-color:grey;
-	min-height: 10vh;
 	color:black;
 	z-index: 1;
 	position: relative;
