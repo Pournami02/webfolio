@@ -94,7 +94,7 @@ h1{
 }
 body::before{
 	content:"";
-	background-image: url("http://www.allwhitebackground.com/images/5/Black-Texture.jpg");
+	background-image: url("bg.jpg");
 	background-repeat: repeat-x;
 	background-repeat: repeat-y;
 	background-size: cover;
